@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: url('webd.jpg') center/cover no-repeat;
+        }
+
+        .blog-container {
+            max-width: 1000px;
+            background: linear-gradient(to right, #0a5c7d, #031019);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #fff;
+            border-bottom: 2px solid #fff;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        p {
+            color: #f4f4f4;
+            line-height: 1.7;
+        }
+
+    
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            .blog-container {
+                padding: 10px;
+                margin:10px;
+            }
+    
+            h1 {
+                font-size: 1.5em;
+                border-bottom: none; /* Remove the border-bottom for better aesthetics on smaller screens */
+            }
+    
+            p {
+                font-size: 1em;
+            }
+        }    
+    </style>
+</head>
+<body>
+
+    <div class="blog-container">
+        
+                    <header>
+            <h1>"Crafting Seamless Experiences: The Art of Responsive Web Design"</h1>
+        </header>
+
+        <p>Published on: January 1, 2024</p>
+
+        <p>
+            
+            The Art of Responsive Web Design <br>
+            
+            Responsive web design is an essential approach in modern web development, ensuring a seamless user experience across a myriad of devices. The core principles involve using flexible grids, fluid layouts, and media queries, allowing websites to adapt dynamically to different screen sizes. <br>
+            
+            Media Queries: Employ media queries to apply specific styles based on the characteristics of the device, such as screen width, height, or orientation. This adaptability is crucial for delivering an optimal experience on smartphones, tablets, and desktops. <br>
+            
+            In upcoming articles, we will explore advanced techniques, best practices, and the latest trends in responsive web design. Stay tuned for insights into creating websites that not only adapt but provide a smooth and delightful experience for users.</p>
+
+
+        <!-- Add more content as needed -->
+        
+    </div>
+</body>
+</html>
